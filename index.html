@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        td
+        {
+            border: solid 1px black;
+            margin: 0;
+            padding: 0;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+
+        .yellow
+        {
+            background-color: blueviolet;
+            color: azure;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h2>Caixa Eletrônico DEV</h2>
+
+    <label for="">Agência</label>
+    <input type="text"  id="agencia"><br><br>
+
+    <label for="">Conta Corrente</label>
+    <input type="text" id="conta">
+
+    <br><br>
+
+    <label for="">Insira um valor</label>
+    <input type="number" id="valor">
+
+    <button onclick="depositar()">Enviar Valor</button>
+    <button onclick="sacar()">Sacar Valor</button>
+
+
+    <script src="assets/js/index.js"></script>
+
+</body>
+</html>
